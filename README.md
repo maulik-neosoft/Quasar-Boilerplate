@@ -13,7 +13,7 @@ Run following commands sequentially
 
 ```
 $> git clone https://github.com/maulik-neosoft/Quasar-Boilerplate
-$> cd quasar-boilerplate
+$> cd Quasar-Boilerplate
 $> npm install
 ```
 

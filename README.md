@@ -33,3 +33,10 @@ Production Build:
 
 ### Deployment
 Copy all static files from `/project-dir/dist/spa/` to the public folder of server
+
+
+### Ref.
+* https://vuejs.org/v2/guide/
+* https://quasar.dev/
+* https://bootstrap-vue.org/
+* https://www.npmjs.com/package/vue-sidebar-menu

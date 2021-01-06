@@ -28,8 +28,15 @@ Production Build:
 - All app related configuration can be found in `quasar.conf.js` file.
 - CSS/Styling has to be written in `src/css/app.scss` file.
 - Routes need to be specified in `src/router/routes.js` file.
-- All stastic assets like Images need to be places in `src/assets` directory.
+- All static assets like Images need to be places in `src/assets` directory.
 - Pages are need to be kept inside `src/pages` directory in their separate files.
 
 ### Deployment
 Copy all static files from `/project-dir/dist/spa/` to the public folder of server
+
+
+### Ref.
+* https://vuejs.org/v2/guide/
+* https://quasar.dev/
+* https://bootstrap-vue.org/
+* https://www.npmjs.com/package/vue-sidebar-menu

@@ -1,26 +1,35 @@
-# Quasar App (quasar-boilerplate)
+# Quasar-Boilerplate
 
-A Quasar Framework app
+> A Boilerplate for creating web apps with Quasar & Bootstrap-Vue.
 
-## Install the dependencies
-```bash
-npm install
+### System Requirements
+- Node.js (https://nodejs.org/en/download/)
+- Quasar-CLI (https://quasar.dev/quasar-cli/installation)
+- VS-Code (https://code.visualstudio.com/)
+
+### Setup
+
+Run following commands sequentially
+
+```
+$> git clone https://github.com/maulik-neosoft/Quasar-Boilerplate
+$> cd quasar-boilerplate
+$> npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+### Commands
+Devlopment:
+```$> quasar dev```
 
-### Lint the files
-```bash
-npm run lint
-```
+Production Build:
+```$> quasar build```
 
-### Build the app for production
-```bash
-quasar build
-```
+### Configurtation
+- All app related configuration can be found in `quasar.conf.js` file.
+- CSS/Styling has to be written in `src/css/app.scss` file.
+- Routes need to be specified in `src/router/routes.js` file.
+- All stastic assets like Images need to be places in `src/assets` directory.
+- Pages are need to be kept inside `src/pages` directory in their separate files.
 
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+### Deployment
+Copy all static files from `/project-dir/dist/spa/` to the public folder of server
